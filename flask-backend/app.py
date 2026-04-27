@@ -1,7 +1,6 @@
 # Flask Backend for WhatNext? (WN?) Events App
 # This file should be deployed separately on a Python hosting service
-from supabase import create_client
-import os
+
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
